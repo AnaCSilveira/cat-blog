@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --color-based-blue: #065E7C;
+    --color-based-white:#FFFFFF;
+    --color-based-grey: #121214;
+    --color-based-blue-sky: #387E96;
+    --color-based-icon: #F4FCFF;
+}
+
+html, input, body {
+    font-family: 'Mulish', sans-serif;
+}
+
+#app {
+    display: grid;
+    height: 100%;
+    grid-template-rows: max-content 1fr max-content;
+    max-width: 43rem;
+    margin-inline: auto;
+}
+
+body {
+    background-color: var(--color-based-white);
+    font-size: 1.6rem;
+}
+
+header nav{
+    background-color: var(--color-based-blue);
+    display: flex;
+    gap: 2.6rem;
+   
+}
+
+header nav img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: var(--color-based-icon);
+}
+.input-wrapper label {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+main h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.7rem;
+    
+
+}
+
+.block {
+    padding: 3.1rem 6.6rem .8rem 2.2rem;
+}
+
+.action button {
+    background-color: var(--color-based-blue);
+    font-size: 1.6rem;
+    border-radius: 50%;
+    color: var(--color-based-white);
+    width: 4rem;
+    height: 4rem;
+    border: 0;
+   
+}
+
+.text {
+    padding: 3.1rem 2.2rem 3.4rem;
+
+}
+
+.container h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.7rem;
+}
+
+.container span {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+}
+
+
+footer {
+background-color: var(--color-based-blue);
+color: var(--color-based-white);
+}
