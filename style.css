@@ -34,8 +34,10 @@ body {
 header nav{
     background-color: var(--color-based-blue);
     display: flex;
+    align-items: center;
     gap: 2.6rem;
-   
+    height: 7.2rem;
+    padding: 0 2.8rem;
 }
 
 header nav img {
@@ -43,7 +45,31 @@ header nav img {
     height: 4rem;
     border-radius: 50%;
     background-color: var(--color-based-icon);
+    
 }
+
+header form {
+    flex: 1;
+    
+}
+
+form input{
+    background: var(--color-based-blue-sky);
+    padding: 1.6rem 1.2rem 1.4rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+    border-radius: .4rem;
+    border: 0;
+    width: 24.1rem;
+}
+
+form ::placeholder {
+    color: var(--color-based-white);
+    border: 0;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+
 .input-wrapper label {
     width: 1px;
     height: 1px;
@@ -51,13 +77,10 @@ header nav img {
     position: absolute;
 }
 
-
 main h1 {
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 3.7rem;
-    
-
 }
 
 .block {
@@ -71,8 +94,7 @@ main h1 {
     color: var(--color-based-white);
     width: 4rem;
     height: 4rem;
-    border: 0;
-   
+    border: 0; 
 }
 
 .text {
@@ -84,6 +106,7 @@ main h1 {
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 3.7rem;
+    margin-bottom: 3.2rem;
 }
 
 .container span {
@@ -92,8 +115,27 @@ main h1 {
     font-weight: 400;
 }
 
+.container {
+    padding: 0 2.2rem ; 
+
+}
+
+figure {
+    display: flex;
+    margin-bottom: 3.2rem;
+    gap: 1.6rem;
+}
+
+span {
+    display: block;
+}
 
 footer {
-background-color: var(--color-based-blue);
-color: var(--color-based-white);
-}
+    background-color: var(--color-based-blue);
+    color: var(--color-based-white);
+    height: 6.4rem;
+    padding: 1.6rem;
+    text-align: center;
+    }
+
+
