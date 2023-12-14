@@ -22,7 +22,7 @@ html, input, body {
     display: grid;
     height: 100%;
     grid-template-rows: max-content 1fr max-content;
-    max-width: 43rem;
+    width: 43rem;
     margin-inline: auto;
 }
 
@@ -76,6 +76,7 @@ form ::placeholder {
     overflow: hidden;
     position: absolute;
 }
+
 
 main h1 {
     font-size: 2.4rem;
@@ -138,4 +139,36 @@ footer {
     text-align: center;
     }
 
+@media (min-width: 770px) {
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin: 44px 110px 39px 110px;
+        place-content: center;
+        
+    }
+
+    #app {
+        margin-inline: 0%;
+        width: 1520px;
+        height: 1090px;
+        
+    }
+
+    form input {
+        width: 1083px;
+    }
+    header nav {
+        padding-left: 112px;
+    }
+    .block{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img-bigger {
+        width: 803px;
+        height: 405px;
+    }
+}
 
