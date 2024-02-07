@@ -96,6 +96,7 @@ main h1 {
     width: 4rem;
     height: 4rem;
     border: 0; 
+    cursor: pointer;
 }
 
 .text {
@@ -118,6 +119,7 @@ main h1 {
 
 .container {
     padding: 0 2.2rem ; 
+    cursor: pointer;
 
 }
 
